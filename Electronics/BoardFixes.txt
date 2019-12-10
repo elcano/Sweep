@@ -1,0 +1,16 @@
+Scanse Sweep Board Updates
+Mitchell Dean
+December 10, 2019
+Scanse Sweep
+What Was Accomplished
+* Schematic confirmed
+* PCB completed and fabricated in order to test
+* Scanse tested
+* CAN initialized on breadboarded circuit
+What Still Needs to be Done
+* PCB can be updated:
+o 6 Pins to Scanse are incorrect order, extra screw terminal hardware was needed to change order. Instead of (D3 D2 RX TX GND 5V) from left to right, it should be (5V D2 D3 RX TX GND). Then 6-pin connector to sweep will work.
+o 6-pin plug to Scanse footprint is backwards
+o MCP2515 not getting power or GND. Vcc goes to pin 18, Gnd to pin 9 (current footprint in Eagle does not include pins 9 and 18)
+* CAN still needs to be tested
+
